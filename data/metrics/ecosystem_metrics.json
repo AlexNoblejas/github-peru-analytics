@@ -1,0 +1,40 @@
+{
+  "overview": {
+    "total_developers": 500,
+    "active_developers": 46,
+    "active_percentage": 9.2,
+    "total_repositories": 2000,
+    "total_stars_given": 38384,
+    "total_forks": 1929
+  },
+  "averages": {
+    "avg_repos_per_dev": 4.0,
+    "avg_stars_per_dev": 0.2,
+    "avg_followers_per_dev": 0.0,
+    "avg_account_age_years": 5.0
+  },
+  "top_languages": {
+    "JavaScript": 241,
+    "HTML": 174,
+    "Python": 150,
+    "Java": 109,
+    "TypeScript": 106,
+    "Makefile": 98,
+    "Jupyter Notebook": 87,
+    "CSS": 76,
+    "Shell": 61,
+    "R": 53
+  },
+  "top_industries": {
+    "Information and communication": 275,
+    "Professional, scientific activities": 44,
+    "Financial and insurance activities": 39,
+    "Public administration and defense": 37,
+    "Education": 23,
+    "Human health and social work": 22,
+    "Arts, entertainment and recreation": 20,
+    "Wholesale and retail trade": 15,
+    "Water supply; sewerage": 6,
+    "Agriculture, forestry and fishing": 5
+  }
+}

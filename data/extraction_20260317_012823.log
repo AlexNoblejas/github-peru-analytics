@@ -1,0 +1,38 @@
+2026-03-17 01:28:23,026 - __main__ - INFO - Starting GitHub Peru Analytics Data Extraction
+2026-03-17 01:28:24,524 - __main__ - INFO - Initial rate limit remaining: 5000/5000
+2026-03-17 01:28:24,526 - __main__ - INFO - Phase 1: Extracting users...
+2026-03-17 01:28:24,526 - src.extraction.user_extractor - INFO - Searching for users in location: Peru
+2026-03-17 01:28:34,485 - src.extraction.user_extractor - INFO - Searching for users in location: Lima
+2026-03-17 01:29:34,448 - src.extraction.user_extractor - INFO - Searching for users in location: Arequipa
+2026-03-17 01:30:31,756 - src.extraction.user_extractor - INFO - Searching for users in location: Cusco
+2026-03-17 01:31:25,468 - src.extraction.user_extractor - INFO - Searching for users in location: Trujillo
+2026-03-17 01:31:33,756 - __main__ - INFO - Extracted 5798 unique users from search.
+2026-03-17 01:31:35,137 - __main__ - INFO - Phase 2: Extracting top repositories via search...
+2026-03-17 01:32:26,501 - __main__ - INFO - Extracted 705 repositories from topic search.
+2026-03-17 01:32:27,157 - __main__ - INFO - Phase 3: Extracting top repos for the top 500 users to expand dataset...
+2026-03-17 01:32:27,164 - __main__ - INFO - Processing user 1/500: Gian25-dev
+2026-03-17 01:33:09,621 - __main__ - INFO - Processing user 51/500: EWCB19
+2026-03-17 01:33:52,360 - __main__ - INFO - Processing user 101/500: 2016cesar
+2026-03-17 01:34:37,118 - __main__ - INFO - Processing user 151/500: lrojasaranda
+2026-03-17 01:35:19,399 - __main__ - INFO - Processing user 201/500: AngieTello777
+2026-03-17 01:36:04,144 - __main__ - INFO - Processing user 251/500: interactive-peru
+2026-03-17 01:36:52,982 - __main__ - INFO - Processing user 301/500: Hector301299
+2026-03-17 01:37:39,409 - __main__ - INFO - Processing user 351/500: LatinSoft-Technologies
+2026-03-17 01:38:31,710 - __main__ - INFO - Processing user 401/500: mariorojasmz
+2026-03-17 01:39:27,552 - __main__ - INFO - Processing user 451/500: gabriellaeguesvit-svg
+2026-03-17 01:40:14,270 - __main__ - INFO - Total unique repositories tracked: 2103
+2026-03-17 01:40:14,271 - __main__ - INFO - Phase 4: Extracting detailed info (READMEs, Languages) for repositories...
+2026-03-17 01:40:14,277 - __main__ - INFO - Processing repository 1/2000: abiosoft/colima
+2026-03-17 01:43:05,326 - __main__ - INFO - Processing repository 101/2000: qgispe/30DayMapChallengeQGISPERU
+2026-03-17 01:45:25,868 - __main__ - INFO - Processing repository 201/2000: hadenlabs/zsh-pipenv
+2026-03-17 01:50:07,376 - __main__ - INFO - Processing repository 301/2000: hadenlabs/docker-activemq
+2026-03-17 01:57:09,237 - __main__ - INFO - Processing repository 401/2000: jorgeyza/video-questionnaire
+2026-03-17 02:04:47,473 - __main__ - INFO - Processing repository 501/2000: Delia18/ia-contadores
+2026-03-17 02:14:23,520 - __main__ - INFO - Processing repository 601/2000: hadenlabs/slides-devops
+2026-03-17 02:24:42,521 - __main__ - INFO - Processing repository 701/2000: danasalcedo645/volatility-risk-management-garch
+2026-03-17 02:35:59,736 - __main__ - INFO - Processing repository 801/2000: Rickozzo/Curso.Prep.Henry
+2026-03-17 02:51:30,741 - __main__ - INFO - Processing repository 901/2000: aacueva/osys
+2026-03-17 03:08:49,034 - __main__ - INFO - Processing repository 1001/2000: caposinformaticos/sistema-ventas
+2026-03-17 03:25:12,921 - __main__ - INFO - Processing repository 1101/2000: JosueHuapaya/fiori-iniciacion
+2026-03-17 03:38:11,197 - __main__ - INFO - Processing repository 1201/2000: armorcodes/awesome-php-crud
+2026-03-17 03:58:36,436 - __main__ - INFO - Processing repository 1301/2000: AlexanderTS1/Sistema-Biblioteca

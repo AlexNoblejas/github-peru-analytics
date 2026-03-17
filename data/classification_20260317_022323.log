@@ -1,0 +1,2 @@
+2026-03-17 02:23:23,133 - __main__ - INFO - Starting GitHub Peru Analytics Industry Classification
+2026-03-17 02:23:23,133 - __main__ - ERROR - Initialization error: OPENAI_API_KEY not found in environment variables.

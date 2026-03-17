@@ -1,0 +1,28 @@
+2026-03-17 02:10:43,395 - __main__ - INFO - Starting GitHub Peru Analytics Data Extraction
+2026-03-17 02:10:43,872 - __main__ - INFO - Initial rate limit remaining: 3235/5000
+2026-03-17 02:10:43,873 - __main__ - INFO - Phase 1: Extracting users...
+2026-03-17 02:10:43,874 - src.extraction.user_extractor - INFO - Searching for users in location: Peru
+2026-03-17 02:10:55,775 - src.extraction.user_extractor - INFO - Searching for users in location: Lima
+2026-03-17 02:12:03,956 - src.extraction.user_extractor - INFO - Searching for users in location: Arequipa
+2026-03-17 02:12:56,799 - src.extraction.user_extractor - INFO - Searching for users in location: Cusco
+2026-03-17 02:13:50,714 - src.extraction.user_extractor - INFO - Searching for users in location: Trujillo
+2026-03-17 02:13:58,237 - __main__ - INFO - Extracted 5798 unique users from search.
+2026-03-17 02:13:58,645 - __main__ - INFO - Phase 2: Extracting top repositories via search...
+2026-03-17 02:15:02,139 - __main__ - INFO - Extracted 701 repositories from topic search.
+2026-03-17 02:15:02,631 - __main__ - INFO - Phase 3: Extracting top repos for the top 500 users to expand dataset...
+2026-03-17 02:15:02,646 - __main__ - INFO - Processing user 1/500: Gian25-dev
+2026-03-17 02:15:51,317 - __main__ - INFO - Processing user 51/500: EWCB19
+2026-03-17 02:16:36,951 - __main__ - INFO - Processing user 101/500: 2016cesar
+2026-03-17 02:17:22,722 - __main__ - INFO - Processing user 151/500: lrojasaranda
+2026-03-17 02:18:04,685 - __main__ - INFO - Processing user 201/500: AngieTello777
+2026-03-17 02:19:03,024 - __main__ - INFO - Processing user 251/500: interactive-peru
+2026-03-17 02:19:50,852 - __main__ - INFO - Processing user 301/500: Hector301299
+2026-03-17 02:20:37,744 - __main__ - INFO - Processing user 351/500: LatinSoft-Technologies
+2026-03-17 02:21:25,517 - __main__ - INFO - Processing user 401/500: mariorojasmz
+2026-03-17 02:22:21,650 - __main__ - INFO - Processing user 451/500: gabriellaeguesvit-svg
+2026-03-17 02:23:10,730 - __main__ - INFO - Total unique repositories tracked: 2099
+2026-03-17 02:23:10,732 - __main__ - INFO - Phase 4: Skipping deep README/Languages to finish pipeline within limits...
+2026-03-17 02:23:10,755 - __main__ - INFO - Data extraction complete. Building CSV files...
+2026-03-17 02:23:11,038 - __main__ - INFO - Saved 500 detailed users to data/processed/users.csv
+2026-03-17 02:23:11,251 - __main__ - INFO - Saved 2000 detailed repositories to data/processed/repositories.csv
+2026-03-17 02:23:11,251 - __main__ - INFO - Extraction pipeline finished successfully!

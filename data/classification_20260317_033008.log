@@ -1,0 +1,6 @@
+2026-03-17 03:30:08,370 - __main__ - INFO - Starting GitHub Peru Analytics Industry Classification (fast mode)
+2026-03-17 03:30:08,443 - __main__ - INFO - Loading repositories from data/processed/repositories.csv
+2026-03-17 03:30:08,471 - __main__ - INFO - Will classify top 500 repositories by stars.
+2026-03-17 03:30:08,508 - __main__ - INFO - Resuming: 2000 repos already classified, skipping them.
+2026-03-17 03:30:08,515 - __main__ - INFO - Repos left to classify: 0
+2026-03-17 03:30:08,516 - __main__ - INFO - All repos already classified! Nothing to do.

@@ -1,0 +1,11 @@
+env/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+# Keep raw JSON (large) excluded but include processed/metrics data
+data/raw/*.json
+demo/screenshots/*
+!demo/screenshots/.gitkeep
+.streamlit/
