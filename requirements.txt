@@ -1,12 +1,11 @@
-requests==2.31.0
-python-dotenv==1.0.1
-tenacity==8.2.3
-pandas==2.2.1
-openai==1.14.0
-streamlit==1.32.2
-plotly==5.20.0
-langchain==0.1.13
-langchain-openai==0.1.1
-jupyter==1.0.0
-pytest==8.1.1
-sqlite3-api  # Python standard library includes sqlite3, just for reminder
+requests>=2.31.0
+python-dotenv>=1.0.1
+tenacity>=8.2.3
+pandas>=2.2.1
+openai>=1.14.0
+streamlit>=1.32.2
+plotly>=5.20.0
+langchain>=0.1.13
+langchain-openai>=0.1.1
+jupyter>=1.0.0
+pytest>=8.1.1
